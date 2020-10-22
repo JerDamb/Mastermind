@@ -4,3 +4,138 @@
     margin: 0;
     font-family:'Raleway', sans-serif;
 }
+
+.game-container{
+    display:flex;
+    justify-content: space-around;
+}
+
+.left-container {
+    width: 33%;
+    height: 100vh;
+    padding: 40px;
+}
+
+.title {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 800;
+    color: rgb(30, 104, 133);
+    text-transform: uppercase;
+    border-bottom: 1px solid rgb(212, 212, 212);
+}
+
+.rules {
+    padding: 50px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.tries{
+    font-size: 30px;
+    padding: 40px;
+    margin-top: 50%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+.center-container {
+    width: 34%;
+    height: 100vh;
+    display:flex;
+    flex-wrap: wrap;
+    
+}
+
+.flexer{
+    display:flex;
+}
+
+.master-container {
+    width: 100%;
+    height: 10%;
+    display:grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.master-colors{
+    width:100%;
+    height: 100;
+    background-color: pink;
+}
+
+.guess-container {
+    width: 100%;
+    height: 80%;
+    background-color:red;
+}
+
+.colors-container {
+    height: 100%;
+    width: 90%;
+    background-color:grey;
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+}
+
+.color{
+    background-color: rgb(36, 99, 158);
+    width:100%;
+    height: 100%;
+}
+
+.pegs-container {
+    height: 100%;
+    width: 18%;
+    background-color: greenyellow;
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(24, 1fr);
+}
+
+.peg{
+    width:100%;
+    height: 100%;
+    background-color: rgb(17, 207, 112);
+}
+
+.selection-container{
+    width: 100%;
+    height: 10%;
+}
+
+.selection-container {
+    display:grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.choices {
+    height: 100%;
+    width: 100%;
+}
+
+.blue{ background-color:rgb(0, 162, 255);}
+.red{ background-color:rgb(255, 0, 0); }
+.yellow{background-color:rgb(238, 255, 0);}
+.green{background-color:rgb(0, 255, 21);}
+.pink{background-color:rgb(255, 0, 170);}
+.black{background-color:rgb(0, 0, 0);}
+
+.right-container {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 33%;
+    height: 100vh;
+}
+
+button{
+    width: 200px;
+    height: 50px;
+    font-size: 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+}

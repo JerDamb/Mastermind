@@ -1,13 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Mastermind</title>
 </head>
+
 <body>
-    <div class="left-container"></div>
-    <div class="center-container"></div>
-    <div class="right-container"></div>
+    <div class="game-container">
+
+        <div class="left-container">
+            <div class="title">Mastermind</div>
+            <div class="rules">Le but du Mastermind est de gagner un maximum de manches. <br><br>
+                Le joueur qui doit trouver la combinaison secrète gagne une manche dès lors qu’il y parvient en maximum
+                12 coups. <br><br>
+                Le joueur qui a conçu la combinaison secrète remporte la manche quand son adversaire n’est pas parvenu a
+                trouvé la combinaison en 12 coups.
+            </div>
+            <div class="tries">Score: 5 essais</div>
+        </div>
+
+        <div class="center-container">
+            <div class="master-container flexer">
+                <div class="master-colors"></div>
+                <div class="master-colors"></div>
+                <div class="master-colors"></div>
+                <div class="master-colors"></div>
+                <div class="master-colors"></div>
+                <div class="master-colors"></div>
+            </div>
+            <div class="guess-container flexer">
+                <div class="colors-container">
+                    <div class="color"></div>
+                    <div class="color"></div>
+                    <div class="color"></div>
+                    <div class="color"></div>
+                    <div class="color"></div>
+                    <div class="color"></div>
+                    <div class="color"></div>
+                    <div class="color"></div>
+                    <div class="color"></div>
+                    <div class="color"></div>
+                    <div class="color"></div>
+                    <div class="color"></div>
+                    <div class="color"></div>
+                    <div class="color"></div>
+                    <div class="color"></div>
+                    <div class="color"></div>
+                    <div class="color"></div>
+                    <div class="color"></div>
+                    <div class="color"></div>
+                    <div class="color"></div>
+                    <div class="color"></div>
+                    <div class="color"></div>
+                    <div class="color"></div>
+                    <div class="color"></div>
+                    <div class="color"></div>
+                    <div class="color"></div>
+                    <div class="color"></div>
+                    <div class="color"></div>
+                    <div class="color"></div>
+                    <div class="color"></div>
+                    <div class="color"></div>
+                    <div class="color"></div>
+                    <div class="color"></div>
+                    <div class="color"></div>
+                    <div class="color"></div>
+                    <div class="color"></div>
+                    <div class="color"></div>
+                    <div class="color"></div>
+                    <div class="color"></div>
+                    <div class="color"></div>
+                    <div class="color"></div>
+                    <div class="color"></div>
+                    <div class="color"></div>
+                    <div class="color"></div>
+                    <div class="color active"></div>
+                    <div class="color active"></div>
+                    <div class="color active"></div>
+                    <div class="color active"></div>
+
+                </div>
+                <div class="pegs-container">
+                    <div class="peg"></div>
+                    <div class="peg"></div>
+                    <div class="peg"></div>
+                    <div class="peg"></div>
+                    <div class="peg"></div>
+                    <div class="peg"></div>
+                    <div class="peg"></div>
+                    <div class="peg"></div>
+                    <div class="peg"></div>
+                    <div class="peg"></div>
+                    <div class="peg"></div>
+                    <div class="peg"></div>
+                    <div class="peg"></div>
+                    <div class="peg"></div>
+                    <div class="peg"></div>
+                    <div class="peg"></div>
+                    <div class="peg"></div>
+                    <div class="peg"></div>
+                    <div class="peg"></div>
+                    <div class="peg"></div>
+                    <div class="peg"></div>
+                    <div class="peg"></div>
+                    <div class="peg"></div>
+                    <div class="peg"></div>
+                    <div class="peg"></div>
+                    <div class="peg"></div>
+                    <div class="peg"></div>
+                    <div class="peg"></div>
+                    <div class="peg"></div>
+                    <div class="peg"></div>
+                    <div class="peg"></div>
+                    <div class="peg"></div>
+                    <div class="peg"></div>
+                    <div class="peg"></div>
+                    <div class="peg"></div>
+                    <div class="peg"></div>
+                    <div class="peg"></div>
+                    <div class="peg"></div>
+                    <div class="peg"></div>
+                    <div class="peg"></div>
+                    <div class="peg"></div>
+                    <div class="peg"></div>
+                    <div class="peg"></div>
+                    <div class="peg"></div>
+                    <div class="peg"></div>
+                    <div class="peg"></div>
+                    <div class="peg"></div>
+                    <div class="peg"></div>
+                </div>
+            </div>
+            <div class="selection-container flexer">
+                <div class="choices blue"></div>
+                <div class="choices red"></div>
+                <div class="choices yellow"></div>
+                <div class="choices green"></div>
+                <div class="choices pink"></div>
+                <div class="choices black"></div>
+            </div>
+        </div>
+
+        <div class="right-container">
+            <div class="colors"></div>
+            <button class="validate">Valider</button>
+        </div>
+
+    </div>
+
 </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="script.js"></script>
+
 </html>
