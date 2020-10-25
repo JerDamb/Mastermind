@@ -75,13 +75,11 @@
 .colors-container {
     height: 10%;
     width: 100%;
-    background-color:red;
 }
 
 .colors-guess {
     width: 84%;
     height: 100%;
-    background-color:green;
     display:grid;
     grid-template-columns: repeat(4, 1fr);
 }
@@ -89,7 +87,6 @@
 .color{
     width:100%;
     height: 100%;
-    background-color: rgb(211, 6, 40);
 }
 
 .pegs-guess {
