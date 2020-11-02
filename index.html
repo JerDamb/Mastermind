@@ -31,7 +31,7 @@
                 <div class="title">MASTERMIND</div>
             </div>
             <div class="guess-container">
-                <div class="colors-container">
+                <!-- <div class="colors-container">
                     <div class="colors-guess">
                         <div class="color"></div>
                         <div class="color"></div>
@@ -170,7 +170,7 @@
                         <div class="peg"></div>
                         <div class="peg"></div>
                     </div>
-                </div>
+                </div> -->
             </div>
             <div class="selection-container">
                 <div class="choices red"></div>
@@ -195,6 +195,61 @@
 
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- <script>
+    for (var i = 1; i <= 9; i++) {
+        $('.guess-container').append($('<div/>', {
+            'class': 'colors-container'
+        }))
+    }
+
+    $('.colors-container').append($('<div/>', {
+        'class': 'colors-guess',
+    }))
+
+
+    $('.colors-container').append($('<div/>', {
+        'class': 'pegs-guess',
+    }))
+
+
+    for (var i = 0; i <= 3; i++) {
+        $('.colors-guess').append($('<div/>', {
+            'class': 'color',
+        }))
+    }
+
+    for (var i = 0; i <= 3; i++) {
+        $('.pegs-guess').append($('<div/>', {
+            'class': 'peg',
+        }))
+    }
+
+    $('.guess-container').append($('<div/>', {
+        'class': 'colors-container'
+    }))
+    $('.colors-container').append($('<div/>', {
+        'class': 'colors-guess',
+    }))
+
+
+    $('.colors-container').append($('<div/>', {
+        'class': 'pegs-guess',
+    }))
+
+
+    for (var i = 0; i <= 3; i++) {
+        $('.colors-guess').append($('<div/>', {
+            'class': 'color active',
+        }))
+    }
+
+    for (var i = 0; i <= 3; i++) {
+        $('.pegs-guess').append($('<div/>', {
+            'class': 'peg',
+        }))
+    }
+</script> -->
 <script src="script.js"></script>
+
 
 </html>
